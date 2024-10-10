@@ -21,3 +21,10 @@ Vamos programar uma todo list em liha de comando. A todo list terá dois comando
 ### Dinâmica da Sessão 
 
 Vamos dividir o grupo em dois times de desenvolvedores que vão resolver o problema em paralelo. Ambos os times vão trabalhar sobre a meesma branch de dev ]elopment até que o problema seja resolvido. 
+
+## Requisitos para participar
+
+* Uma conta no [github](https://github.com)
+* Qualquer IDE de sua preferência.
+* cli do git instalado: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+* o python instalado na máquina: 
