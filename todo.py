@@ -5,12 +5,12 @@ import os
 tasks_list = []
 
 def add_task(task):
-    # TODO Essa funçaõ deve adicionar uma nova tarefa na variável tasks_list.
-    print("not implemented")
+    tasks_list.append(task)
 
 def list_tasks():
-    # TODO Essa funçaõ deve listar todas as tarefas que estão salvas na variável tasks_list.
-    print("not implemented")
+    for i, task in enumerate(tasks_list):
+        print(f"{i+1}. {task}")    
+
 
 def load_tasks():
     global tasks_list
