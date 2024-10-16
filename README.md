@@ -28,3 +28,5 @@ Vamos dividir o grupo em dois times de desenvolvedores que vão resolver o probl
 * Qualquer IDE de sua preferência.
 * cli do git instalado: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 * o python instalado na máquina: 
+
+> Vamo que vamo!
