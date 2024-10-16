@@ -19,7 +19,10 @@ def load_tasks():
             tasks_list = pickle.load(f)            
 
 def save_tasks():
-    pass
+    if not os.path.exists('./data'):
+        os.makedirs('./data')
+    with open('./data/tasks.pkl', 'wb') as f:
+        pickle.dump(tasks_list, f)
 
 def main():
     parser = argparse.ArgumentParser(description="Simple TODO CLI")
