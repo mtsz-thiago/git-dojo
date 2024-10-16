@@ -10,7 +10,9 @@ def add_task(task):
     tasks_list.append(task)
 
 def list_tasks():
-    pass
+    print ("Tasks:")
+    for i, task in enumerate(tasks_list):
+        print(f"{i+1}. {task}")
 
 def load_tasks():
     global tasks_list
